@@ -79,8 +79,7 @@ forecastHTML =
   forecastHTML +
   `
 <div class="weather-forecast-day">
-                <div class="weather-forecast-date"> ${formatDay(
-                  date.time
+                <div class="weather-forecast-date"> ${formatDay(day.time
                 )}</div>
                 <img src="${
                   day.condition.icon_url
